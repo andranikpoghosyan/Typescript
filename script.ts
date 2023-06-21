@@ -15,7 +15,6 @@ const result = findFirstStringIndex([
   "def",
   "ghi",
   null,
-  undefined,
 ]);
 console.log(result);
 
@@ -48,13 +47,13 @@ interface IUsers {
     street: string;
     suite: string;
     city: string;
-    zipcode: string | number;
+    zipcode: string;
     geo: {
-      lat: string | number;
-      lng: string | number;
+      lat: string;
+      lng: string;
     };
   };
-  phone: string | number;
+  phone: string;
   website: string;
   company: {
     name: string;
